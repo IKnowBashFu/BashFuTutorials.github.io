@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 body {
-  background: #333; }
+  background: #333;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace; }
 
 nav {
   margin-left: 1rem;
