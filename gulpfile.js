@@ -28,6 +28,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('sass:watch', function () {
+gulp.task('watch', function () {
     gulp.watch('./src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/js/**/*.js', ['js']);
 });
