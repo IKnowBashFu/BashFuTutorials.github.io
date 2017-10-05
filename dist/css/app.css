@@ -1,2 +1,27 @@
 body {
   background: #333; }
+
+nav {
+  margin-left: 1rem;
+  margin-bottom: 1rem; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    nav ul li {
+      display: inline; }
+  nav a {
+    color: #fff;
+    text-decoration: none; }
+    nav a:hover, nav a:visited, nav a:focus {
+      color: #ccc; }
+
+pre code {
+  border-radius: 0.3em; }
+
+.container {
+  max-width: 80%;
+  margin: 0 auto; }
+
+.hljs {
+  display: inline-block; }
