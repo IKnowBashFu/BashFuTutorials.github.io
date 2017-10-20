@@ -1,43 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body {
-    background: #333;
-    color: #fff;
-    font-family: 'Source Code Pro', monospace;
+  background: #333;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
 }
 
 nav {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
-        li {
-            display: inline;
+    li {
+      display: inline;
+
+      a, a:visited {
+        color: #a6e22e;
+        padding: 1em;
+
+        &:hover, &:focus {
+          color: #a6e22e;
+          background: #191919;
+          border-radius: 0.3em;
         }
+      }
     }
+  }
 
-    a {
-        color: #fff;
-        text-decoration: none;
-        &:hover, &:visited, &:focus {
-            color: #ccc;
-        }
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover, &:visited, &:focus {
+      color: #ccc;
     }
+  }
 }
 
 pre code {
-    border-radius: 0.3em;
+  border-radius: 0.3em;
 }
 
 .container {
-    max-width: 80%;
-    margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .hljs {
-    display: inline-block;
+  display: inline-block;
 }
