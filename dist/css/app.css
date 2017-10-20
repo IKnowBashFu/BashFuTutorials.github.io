@@ -6,11 +6,13 @@ body {
 
 nav {
   margin-left: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  padding-left: 0; }
   nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding-left: 0; }
     nav ul li {
       display: inline; }
       nav ul li a, nav ul li a:visited {
@@ -35,3 +37,13 @@ pre code {
 
 .hljs {
   display: inline-block; }
+
+#langList {
+  padding-left: 0;
+  list-style-type: none; }
+  #langList li a, #langList li a:visited {
+    color: #a6e22e;
+    text-decoration: none; }
+    #langList li a:hover, #langList li a:focus, #langList li a:visited:hover, #langList li a:visited:focus {
+      color: #a6e22e;
+      text-decoration: underline; }

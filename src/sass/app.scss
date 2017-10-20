@@ -9,11 +9,13 @@ body {
 nav {
   margin-left: 1rem;
   margin-bottom: 1rem;
+  padding-left: 0;
 
   ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 0;
 
     li {
       display: inline;
@@ -51,4 +53,19 @@ pre code {
 
 .hljs {
   display: inline-block;
+}
+
+#langList {
+  padding-left: 0;
+  list-style-type: none;
+
+  li a, li a:visited {
+    color: #a6e22e;
+    text-decoration: none;
+
+    &:hover, &:focus {
+      color: #a6e22e;
+      text-decoration: underline;
+    }
+  }
 }
